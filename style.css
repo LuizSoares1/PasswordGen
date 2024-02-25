@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+}
+
+main {
+    padding: 40px;
+    box-shadow: 0 1px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+main > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    padding: 5px;
+    outline: none;
+    accent-color: red;
+    border-color: red;
+}
+
+input [type=checkbox] {
+    width: 19px;
+    height: 18px;
+}
+
+input [type=range] {
+    width: 90%;
+}
+
+button {
+    background: red;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+.copyBtn {
+    font-size: 15px;
+    padding: 12px;
+}

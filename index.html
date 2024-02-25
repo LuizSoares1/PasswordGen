@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div id="passInput">
+            <input type="text" id="inputPasswordId" />
+            <button class="copyBtn" onclick="copyContent()">Copy</button>
+        </div>
+
+        <div>
+            <input type="range" id="inputLengthId" min="6" max="24">
+            <label for="inputLengthId"></label>
+        </div>
+
+        <div>
+            <input id="chkLowerId" type="checkbox" />
+            <label for="chkLowerId">LowCase</label>
+        </div>
+        <div>
+            <input id="chkUpperId" type="checkbox" />
+            <label for="chkUpperId">UpCase</label>
+        </div>
+        <div>
+            <input id="chkNumberId" type="checkbox" />
+            <label for="chkNumberId">Numbers</label>
+        </div>
+        <div>
+            <input id="chkSymbolsId" type="checkbox" />
+            <label for="chkSymbolsId">Symbols</label>
+        </div>
+
+        <button id="btnGenerator">Generate</button>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
